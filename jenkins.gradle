@@ -10,8 +10,6 @@ buildscript {
 
 import org.apache.commons.io.FileUtils
 
-import java.nio.file.Files
-
 repositories {
     mavenLocal()
     maven { url 'http://repo.jenkins-ci.org/releases/' }

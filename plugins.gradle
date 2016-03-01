@@ -28,4 +28,5 @@ dependencies {
     jenkinsPlugins 'org.jenkins-ci.plugins:join:+@jar'
     jenkinsPlugins 'org.jenkins-ci.plugins:cloudbees-folder:+@jar'
     jenkinsPlugins 'org.jenkins-ci.plugins:parameterized-trigger:+@jar'
+    jenkinsPlugins 'ru.yandex.jenkins.plugins.compound-slaves:compound-slaves+@jar'
 }
