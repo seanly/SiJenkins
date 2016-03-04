@@ -1,7 +1,5 @@
 folder('Demo')
 
-/*
-
 deliveryPipelineView('Demo/Pipeline') {
 
     pipelineInstances(5)
@@ -16,13 +14,6 @@ deliveryPipelineView('Demo/Pipeline') {
 
 freeStyleJob('Demo/Sonar') {
     deliveryPipelineConfiguration("Build", "Sonar")
-    scm {
-        git {
-            remote {
-                url('https://github.com/Diabol/dummy.git')
-            }
-        }
-    }
 
     wrappers {
         buildName('\$PIPELINE_VERSION')
@@ -174,6 +165,3 @@ job('Demo/TestProd') {
     }
 
 }
-
-
-*/
