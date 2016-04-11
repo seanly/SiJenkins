@@ -30,5 +30,5 @@ dependencies {
     jenkinsPlugins 'org.jenkins-ci.plugins:parameterized-trigger:+@jar'
     jenkinsPlugins 'org.jenkins-ci.plugins:saltstack:+@jar'
     jenkinsPlugins 'ru.yandex.jenkins.plugins.compound-slaves:compound-slaves:+@jar'
-    jenkinsPlugins 'xyz.lysean.jenkinsci.plugins:xsl-report-plugin:xsl-report-plugin:+@jar'
+    jenkinsPlugins 'xyz.lysean.jenkinsci.plugins:xsl-report-plugin:+@jar'
 }
