@@ -16,6 +16,7 @@ dependencies {
     jenkinsPlugins 'org.jenkins-ci.plugins:greenballs:+@jar'
     jenkinsPlugins 'org.jenkins-ci.plugins:timestamper:+@jar'
     jenkinsPlugins 'org.jenkins-ci.plugins:email-ext:+@jar'
+    jenkinsPlugins 'org.jenkins-ci.plugins:robot:+@jar'
 
     jenkinsPlugins 'org.jenkins-ci.plugins:JDK_Parameter_Plugin:+@jar'
     jenkinsPlugins 'org.jenkins-ci.plugins:git:+@jar'
